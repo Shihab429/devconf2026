@@ -1,7 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 nav ul {
   display: flex;
@@ -25,7 +35,6 @@ nav a {
 }
 .button:hover {
   background-color: #0c38af;
-  background-size: cover;
 }
 
 /* Hero section */
@@ -33,4 +42,59 @@ nav a {
   color: white;
   background-image: url("./assets/banner.jpg");
   height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.subhero {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 50%;
+  position: absolute;
+
+  z-index: 2;
+}
+.subhero2 {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subhero2 p {
+  width: 400px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.subhero2 h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding: 0;
+  border: 2px dashed #7a07e6c2;
+  padding: 10px 30px;
+}
+.subhero2 button {
+  margin-top: 100px;
+}
+
+/* Meet the speakers */
+.meetSpeakers {
+  padding-top: 50px;
+}
+.meetSpeakers h1 {
+  text-align: center;
+  border: 2px solid green;
+}
+.allSpeakers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 20px 50px;
+  padding-right: 50px;
+  border: 2px solid green;
 }
