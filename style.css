@@ -88,7 +88,6 @@ nav a {
 }
 .meetSpeakers h1 {
   text-align: center;
-  border: 2px solid green;
 }
 .allSpeakers {
   display: grid;
@@ -96,5 +95,93 @@ nav a {
   gap: 30px;
   padding: 20px 50px;
   padding-right: 50px;
-  border: 2px solid green;
+}
+.allSpeakers .category {
+  color: #2563eb;
+  padding: 5px 0;
+}
+.content_div {
+  padding: 15px;
+}
+.allSpeakers > div {
+  /* border: 1px solid gray; */
+  box-shadow: 1px 1px 1px rgb(233, 227, 227);
+  border-radius: 10px;
+}
+.title {
+  font-size: 15px;
+  color: #494040bb;
+  margin-top: 7px;
+}
+
+/* Secure spot */
+.secureSpot {
+  margin: 50px auto;
+}
+.secureSpot > h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+.secureSpot > p {
+  text-align: center;
+}
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.pricing ul {
+  margin: 30px 20px 10px;
+}
+.pricing ul li {
+  line-height: 25px;
+}
+.allBtn {
+  width: 90%;
+  margin: 5px auto;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: white;
+  border: 2px solid royalblue;
+  color: royalblue;
+  cursor: pointer;
+}
+.button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.proBtn {
+  margin: 5px auto;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 90%;
+  padding-left: 5%;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 5px;
+}
+.proDiv {
+  background-color: #0d1b2a;
+  color: #c3c6c9;
+  padding: 15px;
+  border-radius: 10px;
+}
+.allDiv:not(.proDiv) {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f8f9fb;
+}
+.proTitle {
+  color: #93c5fd;
+}
+
+.secureSpot > div {
+  padding: 15px;
+}
+hr {
+  margin: 15px auto;
+  background-color: #c3c6c9;
+  opacity: 50%;
 }
