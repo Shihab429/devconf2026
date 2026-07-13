@@ -222,3 +222,31 @@ details p {
   line-height: 1.6;
   color: #555;
 }
+
+/* Footer section */
+footer {
+  height: 80px;
+  background-color: #0d1b2a;
+  padding: 20px;
+}
+.subFooter {
+  display: flex;
+  justify-content: space-around;
+  color: #ddd;
+  align-items: center;
+}
+footer p {
+  color: #ddd;
+  text-align: center;
+}
+
+.social i {
+  color: #a4aab9;
+  margin: 10px auto;
+  margin-left: 4px;
+}
+.condition a {
+  text-decoration: none;
+  color: #ddd;
+  margin-right: 7px;
+}
